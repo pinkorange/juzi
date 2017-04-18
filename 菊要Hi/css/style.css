@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/*CSS 重置*/
+body{
+	padding:0;
+	margin:0;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p {
+	padding:0;
+	margin:0;
+}
+table,td,tr,th {
+	font-size:12px;
+}
+ol,ul {
+	list-style:none;
+}
+li {
+	list-style-type:none;
+}
+img {
+	vertical-align:top;
+	border:0;
+	display:block;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+
+/*公共样式*/
+
+.content{
+	width:100%;
+	height: 500px;
+	margin-bottom: 10px;
+}
+.content_con{
+	width: 983px;
+	margin: 0 auto;
+}
+.content_con .content_top{
+	width: 100%;
+	height: 50px;
+}
+.content_con .content_top h2{
+	float: left;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+.content_con .content_top ul{
+	float: right;
+}
+.content_con .content_top ul li{
+	float: left;
+	width:80px;
+}
+.content_con .content_top ul li a{
+	font-size:14px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+}
+.content_con .content_top ul li a:hover{
+	color: red;
+}
+.content_con .content_bottom{
+	width:100%;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+}
+.content_con .content_bottom .content_bottom_l, .content_bottom_2, .content_bottom_3, .content_bottom_4{
+	position: absolute;
+	float: left;
+	width:320px;
+	height: 450px;
+	opacity: 0.6;
+	filter: alpha(opacity=0.6);
+	/*background: #d7eaf9;*/
+	background: url(../img/ms2.jpg) no-repeat;
+}
+.content_con .content_bottom .content_bottom_2{
+	background: url(../img/zhuozhuang.jpg) no-repeat;
+}
+.content_con .content_bottom .content_bottom_3{
+	background: url(../img/lvyou.jpg) no-repeat;
+}
+.content_con .content_bottom .content_bottom_4{
+	background: url(../img/jianzhu.jpg) no-repeat;
+}
+.content_con .content_bottom .content_bottom_l p, .content_bottom_2 p, .content_bottom_3 p, .content_bottom_4 p{
+	width:230px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font:normal 20px/30px '楷体';
+	color: #fff;
+}
+.content_con .content_bottom .content_bottom_l:hover, .content_bottom_2:hover{
+	left: -10px;
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+.content_con .content_bottom .content_bottom_3:hover, .content_bottom_4:hover{
+	left: -10px;
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+.content_con .content_bottom .content_bottom_r{
+	float: right;
+	width: 650px;
+	height: 450px;
+	position: relative;
+}
+.content_con .content_bottom .content_bottom_r ul{
+	float: left;
+}
+.content_con .content_bottom .content_bottom_r ul li{
+	float: left;
+}
+.content_con .content_bottom .content_bottom_r ul .img1{
+	margin-right: 20px;
+}
+.content_con .content_bottom .content_bottom_r ul .img1 img{
+	width: 315px;
+	height: 215px;
+}
+.content_con .content_bottom .content_bottom_r ul .img1 div{
+	width: 315px;
+	height: 50px;
+	background: #000;
+	opacity: 0.6;
+	filter: alpha(opacity=0.6);
+	position: absolute;
+	top: 150px;
+	display: none;
+}
+.content_con .content_bottom .content_bottom_r ul .img1 div p{
+	color: #fff;
+	font:normal 20px/50px "楷体";
+	text-align: center;
+}
+.content_con .content_bottom .content_bottom_r ul .img2 img{
+	width: 315px;
+	height: 215px;
+}
+.content_con .content_bottom .content_bottom_r ul .img2 div{
+	opacity: 0.6;
+	filter: alpha(opacity=0.6);
+	width: 315px;
+	height: 50px;
+	background: #000;
+	position: absolute;
+	top: 150px;
+	display: none;
+}
+.content_con .content_bottom .content_bottom_r ul .img2 div p{
+	color: #fff;
+	font:normal 20px/50px "楷体";
+	text-align: center;
+}
+.content_con .content_bottom .content_bottom_r ul .img3{
+	margin-top: 20px;
+}
+.content_con .content_bottom .content_bottom_r ul .img3 img{
+	width: 315px;
+	height: 215px;
+}
+.content_con .content_bottom .content_bottom_r ul .img3 div{
+	width: 315px;
+	height: 50px;
+	opacity: 0.6;
+	filter: alpha(opacity=0.6);
+	background: #000;
+	position: absolute;
+	top: 380px;
+	display: none;
+}
+.content_con .content_bottom .content_bottom_r ul .img3 div p{
+	color: #fff;
+	font:normal 20px/50px "楷体";
+	text-align: center;
+}
+.content_con .content_bottom .content_bottom_r ul .img4{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.content_con .content_bottom .content_bottom_r ul .img4 img{
+	width: 315px;
+	height: 215px;
+}
+.content_con .content_bottom .content_bottom_r ul .img4 div{
+	width: 315px;
+	height: 50px;
+	opacity: 0.6;
+	filter: alpha(opacity=0.6);
+	background: #000;
+	position: absolute;
+	top: 380px;
+	display: none;
+}
+.content_con .content_bottom .content_bottom_r ul .img4 div p{
+	color: #fff;
+	font:normal 20px/50px "楷体";
+	text-align: center;
+}
+
+
+
+
+
+
+
+
